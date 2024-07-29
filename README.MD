@@ -59,8 +59,14 @@ Ensure you have the following installed on your local machine:
     ```
     npm start
     ```
+## Run the program
+// The React complied build production file is inside Django server
+1. cd server
 
-Now, your application should be running at `localhost:3000`.
+2. Run python manage.py runserver
+
+
+Now, your application should be running at `localhost:8000`.
 
 Note:
 - The Django server should be running at the same time as the React application for the system to function properly.
